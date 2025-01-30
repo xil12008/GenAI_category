@@ -2,10 +2,16 @@
 GenAI_category
 
 * Common Blocks
-  * Attention
   * Conv
   * ResNet
   * Embedding
+  * Normalization
+  * Attention
+
+* Training
+  * Optim
+    * adam weight decay
+  * fp16/GradScaler
 
 * Reinforcement Learning
   * Policy Gradient
@@ -14,3 +20,8 @@ GenAI_category
 * Diffusion
   * Sampling
   * Score Match
+
+* Finetuning
+  * SFT
+  * CoT
+  * RLHF
