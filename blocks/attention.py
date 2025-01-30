@@ -32,7 +32,7 @@ class CausalSelfAttention(nn.Module):
         y = y.contiguous().view(B, T, C) # out=(B, T, C)
         y = self.Wo(y) # out=(B, T, n_dim)
         y = F.dropout(y, inplace=True) # out=(B, T, C)
-        return y
+        return y 
 
 class FakeDecoder(nn.Module):
     def __init__(self, n_sequence, n_dim, n_head, vocab_size):
